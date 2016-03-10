@@ -1,0 +1,156 @@
+body {
+	background-color: #eeeeee;
+	font-family: Helvetica, Arial, sans-serif; /* most prefferred, second choice, generic fall back font style */
+	margin: 0; /* to remove default margin to put main body hard up against edges */
+	padding: 100px;
+}
+
+nav {
+	background-color:#ffffff;
+	border-top-color: #FF4700;
+	border-top-width: 3px;
+	border-top-style: solid;
+}
+
+nav li	{
+	list-style: none;
+	display: inline;
+	margin-left: 20px;
+}
+
+nav li:first-child {
+	margin-left: 0;	/* to remove left-side margin from nav ul */ 
+}
+
+nav a	{
+	color: #FF4700; /* orange links */
+	text-decoration: none;	
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+nav img {
+	vertical-align: middle;
+	margin-right: 520px;
+
+} 
+
+#buy-now {
+	background-color: #FF4700;
+	color: #ffffff;
+	padding: 4px;
+	border-radius: 3px;
+	/* below section generated from gradient generator site */
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff4700+0,b72d00+100 */
+	background: rgb(255,71,0); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(255,71,0,1) 0%, rgba(183,45,0,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(255,71,0,1) 0%,rgba(183,45,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(255,71,0,1) 0%,rgba(183,45,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff4700', endColorstr='#b72d00',GradientType=0 ); /* IE6-9 */
+}
+
+#buy-now:hover {
+	text-decoration: none;
+}
+
+nav ul {
+	padding-left: 0; /* to remove default ul left-side padding from nav ul */
+	/*background-color: blue;*/
+	width:960px;
+	margin: 0 auto; /* 0 top and bottom and auto left and right */
+	padding-top: 10px;
+	padding-bottom: 10px; 
+}
+
+main {
+	width: 960px;
+	margin: 0 auto;
+}
+
+article header ul {
+	padding-left: 0;
+	list-style: none;
+	font-size: smaller;
+	/*background-color: red;*/
+} 
+
+article header li {
+	display: inline;
+	margin-right: 10px;
+}
+
+article {
+	background-color: #FFFFFF;
+	width: 66.66%;
+	box-sizing: border-box; /* stops padding from making box bigger */
+	margin-top: 40px;
+	/* box-shadow: X axis, Y axis, blur, size, colour  */
+	box-shadow: 0 13px 5px -10px rgba(0,0,0,.3);
+}
+
+article header img {
+	max-width: 100%;	
+}
+
+.article-content {
+	padding: 0 30px;
+} /* applies to the text content below img so img is not effected */
+
+article h1 {
+	font-family: 'Crete Round', serif;
+	font-size: xx-large;
+	font-weight: 400;
+
+}	
+
+article h1 a {
+	color: #333333;
+	text-decoration: none;
+}
+
+#pinned h1 a:hover {
+	color: #777777;  /* hover color grey for only first article ID pinned */
+} 
+
+article h1 a:hover {
+	color: #ff4700; /* hover color orange for 2nd and later article h1's */
+} 
+
+article p {
+	color: #333333;
+}
+
+.breakout {
+	font-weight: bold;
+	color: #222222;
+	text-decoration: none;
+	display: inline-block;
+	margin: 15px 0;
+}
+
+article footer {
+	background-color: #fcfcfc;
+	padding: 15px 30px;
+	border-top: 1px solid #dddddd;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
